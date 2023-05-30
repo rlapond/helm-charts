@@ -114,6 +114,9 @@ spec:
                     {{- if .Values.es.slm }}
                     "--es.slm",
                     {{- end }}
+                    {{- if .Values.es.ilm }}
+                    "--es.ilm",
+                    {{- end }}
                     {{- if .Values.es.data_stream }}
                     "--es.data_stream",
                     {{- end }}

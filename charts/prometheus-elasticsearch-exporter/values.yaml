@@ -175,6 +175,10 @@ es:
   ##
   slm: false
 
+  ## If true, query stats for ILM.
+  ##
+  ilm: false
+
   ## If true, query stats for data streams.
   ##
   data_stream: false
